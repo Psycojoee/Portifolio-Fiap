@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+
+* { /*Serve para tirar a margem padrão do navegador*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*O tamanho será correto, sem ficar estourado e muda a 
+    maneira que o HTML irá pensar sobre a imagem*/
+}
+
+
+
+html {
+    font-size: 62.5%; /* codigo secreto para deixar a fonte padrão*/
+}
+
+header {
+    background-image: url(../images/fundo.png);
+    background-size: cover;
+    height: 100vh; /* 100% da altura da imagem*/
+    padding-top: 15rem; /*Margem de cima*/
+    padding-left: 9.2rem; /*espaçamento do lado*/
+    /*padding você pode inserir os valores direto sem precisar falar se é cima ou baixo*/
+    
+}
+
+h1 {
+    font-family: 'Poppins'; /*Fonte exportada*/
+    font-size: 5rem; /*tamanho da fonte */
+    font-weight: 900; /*peso da fonte */
+    color: #FFF; /*Cor da fonte */
+    
+}
+
+span {
+    font-family: 'montserrat';
+    font-size: 4rem;
+    color: #FFF;
+
+}
+
+
+/* REM é uma unidade relativa, ela é relativa ao elemento HOOT da pagina
+O navegador tem uma fonte padrão (normalmente 16).
+Normalmente utilizará o REM para tamanho de fonte
+Valor absoluto não é alterado com o ZOOM, será sempre a mesma coisa.
+HEIGHT = ALTURA
+VW =Lado da tela
+VH = Altura da tela
